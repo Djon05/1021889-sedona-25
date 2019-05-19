@@ -27,12 +27,10 @@
          <p class="reasons-text">Расмотрим 5 причин, по которым седона круче, чем гранд каньон</p>
      </section>
 
-     <section class="feature">
         <div class="feature-city">
         <h3 class="feature-city-title">настоящий городок</h3>  
         <span class="feature-city-number">— №1 —</span>
         <p class="feature-city-text">седона-не аттракцион для туристов, там течет своя жизнь</p>
-        <img src="img/citi.png"><!--С картинкой не понятно как правильно сделать.-->
         </div>
         </div class="feature-item">
           <h3 class="feature-title">Жилье</h3>
@@ -47,11 +45,7 @@
           <p class="feature-text">Не только китайского, но и местного производства </p>
         </div>
       </div>
-
-    </section>   
-    <section class="feature-second">
         <div class="feature-second-canyon">
-          <img src="img/canyon.png"><!--С картинкой не понятно как правильно сделать.-->
           <h3 class="feature-second-canyon-title">там есть мост дьявола</h3>  
           <span class="feature-second-canyon-number">— №2 —</span>
           <p class="feature-second-canyon-text">да, по нему можно пройти если конечно вы осмелитись</p>
@@ -72,13 +66,38 @@
           <p class="feature-second-text">Большинство едет в гранд каньон и толпится там </p>
         </div>
       </div>   
-    </section>
+  
 
      <section class="sentence">
        <h2 class="sentence-title">Заинтересовались</h2>
          <p class="sentence-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
      </section>
    </main>
+
+      <button class="button" type="button">Поиск гостиницы в Седоне</button>
+
+      <form class="hotel-form">
+       <p class="hotel-form-item">
+            <label for="hotel-form-item-date">Дата заезда:</label>
+            <input class="hotel-date" type="text" name="date" value="" placeholder="24 апреля 2017">
+       </p>
+       <p class="hotel-form-item">
+            <label for="hotel-form-item-date">Дата выезда:</label>
+            <input class="hotel-date" type="text" name="date" value="" placeholder="24 апреля 2017">
+       </p>
+           <label class="hotel-form-option">взрослые</label>
+              <button class="hotel-form-option-minus" type="button">-</button>
+                <input class="hotel-form-option-two" type="text" name="number" placeholder="2">
+              <button class="hotel-form-option-plus" type="button">+</button>
+          <label class="hotel-form-option-children">дети</label>
+              <button class="hotel-form-option-minus" type="button">-</button>
+                <input class="hotel-form-option-zero" type="text" name="number" placeholder="0">
+              <button class="hotel-form-option-plus" type="button">+</button>
+        <p class="hotel-form-button">
+           <button class="hotel-form-submit" type="submit">найти</button>
+        </p>
+   </form>
+                                             
 
    <footer class="main-footer">
     	<a class="main-footer-hashtag" href="#">#visitsedona</a>
