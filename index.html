@@ -66,38 +66,42 @@
           <p class="feature-second-text">Большинство едет в гранд каньон и толпится там </p>
         </div>
       </div>   
-  
 
-     <section class="sentence">
-       <h2 class="sentence-title">Заинтересовались</h2>
-         <p class="sentence-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+     <section class="find-hotel">
+       <h2 class="find-hotel-title">Заинтересовались</h2>
+         <p class="find-hotel-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
      </section>
-   </main>
 
-      <button class="button" type="button">Поиск гостиницы в Седоне</button>
+         <button class="button" type="button">Поиск гостиницы в Седоне</button>
 
-      <form class="hotel-form">
-       <p class="hotel-form-item">
-            <label for="hotel-form-item-date">Дата заезда:</label>
-            <input class="hotel-date" type="text" name="date" value="" placeholder="24 апреля 2017">
-       </p>
-       <p class="hotel-form-item">
-            <label for="hotel-form-item-date">Дата выезда:</label>
-            <input class="hotel-date" type="text" name="date" value="" placeholder="24 апреля 2017">
-       </p>
-           <label class="hotel-form-option">взрослые</label>
-              <button class="hotel-form-option-minus" type="button">-</button>
-                <input class="hotel-form-option-two" type="text" name="number" placeholder="2">
-              <button class="hotel-form-option-plus" type="button">+</button>
-          <label class="hotel-form-option-children">дети</label>
-              <button class="hotel-form-option-minus" type="button">-</button>
-                <input class="hotel-form-option-zero" type="text" name="number" placeholder="0">
-              <button class="hotel-form-option-plus" type="button">+</button>
-        <p class="hotel-form-button">
-           <button class="hotel-form-submit" type="submit">найти</button>
-        </p>
+    <form class="hotel-form">
+     <p class="hotel-form-item">
+           <label for="hotel-form-item-date" for="id2">arrival-date:</label>
+           <input class="hotel-date" type="text" name="date" value="" id="id=arrival-date" placeholder="24 апреля 2017">
+      </p>
+
+      <p class="hotel-form-item">
+           <label for="hotel-form-item-date" for="date-departure">Дата выезда:</label>
+           <input class="hotel-date" type="text" name="date" value="" id="date-departure" placeholder="24 апреля 2017">
+      </p>
+
+      <p>
+         <label class="hotel-form-option">взрослые</label>
+           <button class="hotel-form-button" type="button">-</button>
+            <input class="hotel-form-input" type="text" name="number" placeholder="2">
+          <button class="hotel-form-button" type="button">+</button>
+
+      </p>
+
+      <p>
+        <label class="hotel-form-option-children">дети</label>
+          <button class="hotel-form-button" type="button">-</button>
+            <input class="hotel-form-input" type="text" name="number" placeholder="0">
+          <button class="hotel-form-button" type="button">+</button>
+      </p>
+           <button class="hotel-form-submit" type="submit">найти</button>     
    </form>
-                                             
+   </main>
 
    <footer class="main-footer">
     	<a class="main-footer-hashtag" href="#">#visitsedona</a>
