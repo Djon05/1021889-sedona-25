@@ -1,125 +1,229 @@
 body {
-	margin: 0px;
-	padding: 0px;
-
-	font-family: 'PT Sans', Arial, sans-serif;
-	font-size: 14px;
-	line-height: 21px;
-	text-transform: uppercase;
+   margin: 0px;
+   padding: 0px;
+   font-family: 'PT Sans', Arial, sans-serif;
+   font-size: 14px;
+   line-height: 21px;
+   text-transform: uppercase;
 }
 
 a {
-	text-decoration: none;
+   text-decoration: none;
 }
 
 .main-navigation {
-	line-height: 26px;
-	color: #000000;
+   color: #000000;
 }
 
 .site-navigation {
-	list-style: none;
+   list-style: none;
 }
 
 .site-navigation a {
-	color: #000000;
+   color: #000000;
+   line-height: 26px;
 }
 
 .site-navigation a:hover {
-	background-color: #766357;
+   background-color: #81b3d2;
+}
+
+.site-navigation a:active {
+   background-color: #b2b2b2;
+}
+
+.site-navigation-link {
+   font-weight: 700;
+   line-height: 26px;
+}
+
+.visually-hidden {
+   position: absolute;
+   clip: rect(0, 0, 0, 0);
+   padding: 0;
+   border: 0;
+   margin: -1px;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+   white-space: nowrap;
+   clip-path: inset(100%);
 }
 
 .reasons {
-	text-align: center;
+   text-align: center;
 }
 
 .reasons-title {
-	font-size: 21px;
-    line-height: 26px;
+   font-size: 21px;
+   line-height: 26px;
 }
 
 .reasons-text {
-	font-size: 14px;
-    line-height: 26px;
+   font-size: 14px;
+   line-height: 26px;
+   color: #333333;
 }
 
 .feature-city-title {
-    font-size: 21px;
-    line-height: 21px;
+   font-size: 21px;
+   line-height: 21px;
+}
+
+.feature-city-number {
+   color: #333333;
 }
 
 .feature-item {
-	text-align: center;
+   text-align: center;
 }
 
 .feature-title {
-	font-size: 21px;
-    line-height: 21px;
+   font-size: 21px;
+   line-height: 21px;
 }
 
 .feature-second-item {
-	text-align: center;
+   text-align: center;
 }
 
 .feature-second-title {
-	font-size: 21px;
-    line-height: 21px;
+   font-size: 21px;
+   line-height: 21px;
 }
 
 .find-hotel {
-	text-align: center;
+   text-align: center;
 }
 
 .find-hotel-title {
-	font-size: 30px;
-    line-height: 36px;
+   font-size: 30px;
+   line-height: 36px;
 }
 
 .find-hotel-text {
-	line-height: 24px;
+   line-height: 24px;
+   color: #333333;
 }
 
 .find-hotel-button {
-	font-size: 21px;
-    line-height: 26px;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #766357;
-    border: none;
+   font-size: 21px;
+   line-height: 26px;
+   color: #ffffff;
+   text-transform: uppercase;
+   background-color: #766357;
+   border: none;
+   font-weight: 700;
+}
+
+.find-hotel-button:hover {
+   background-color: #604e43;
+}
+
+.find-hotel-button:active {
+   background-color: #503e33;
+}
+
+.hotel-form-label {
+   line-height: 26px;
+   font-weight: 700;
+}
+
+.hotel-form-input {
+   line-height: 26px;
+   font-weight: 700;
+}
+
+.hotel-form-submit {
+   font-size: 21px;
+   line-height: 26px;
+   color: #ffffff;
+   text-transform: uppercase;
+   background-color: #81b3d2;
+   font-weight: 700;
+}
+
+.hotel-form-submit:hover {
+   background-color: #669ec0;
+}
+
+.hotel-form-submit:active {
+   background-color: #5496bd;
 }
 
 .main-footer-hashtag {
-	color: #000000;
+   font-size: 21px;
+   line-height: 26px;
+   color: #000000;
+   font-weight: 700;
 }
 
 .footer-social {
-	list-style: none;
-	text-align: center;
+   list-style: none;
+   text-align: center;
+   background-color: #81b3d2;
+}
+
+.social-button {
+   color: #ffffff;
 }
 
 .footer-copyright {
-	text-align: center;
+   text-align: center;
+   line-height: 26px;
 }
 
 .catalog-item-title {
    font-size: 21px;
-    line-height: 26px;
+   line-height: 26px;
+   font-family: 700px;
+}
+
+.catalog-item-hotel {
+   color: #333333;
+}
+
+.catalog-item-price {
+   color: #333333;
+}
+
+.catalog-item-rating-text {
+   color: #333333;
+   background-color: #f2f2f2;
 }
 
 .catalog-item-more {
-	font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #81b3d2;
-    border: none;
+   font-size: 14px;
+   line-height: 21px;
+   color: #ffffff;
+   text-transform: uppercase;
+   background-color: #81b3d2;
+   border: none;
+   font-weight: 700;
+}
+
+.catalog-item-more:hover {
+   background-color: #669ec0;
+}
+
+.catalog-item-more:active {
+   background-color: #5496bd;
 }
 
 .catalog-item-book {
-	font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #766357;
-    border: none;
+   font-size: 14px;
+   line-height: 21px;
+   color: #ffffff;
+   text-transform: uppercase;
+   background-color: #766357;
+   border: none;
+   font-weight: 700;
+}
+
+.catalog-item-book:hover {
+   background-color: #604e43;
+}
+
+.catalog-item-book:active {
+   background-color: #503e33;
 }
