@@ -36,6 +36,20 @@ a {
    flex-wrap: wrap;
 }
 
+.site-navigation li:nth-child(1) {
+   margin-right: 140px;
+
+}
+
+.site-navigation li:nth-child(2) {
+   margin-right: 380px;
+
+}
+.site-navigation li:nth-child(3) {
+   margin-right: 150px;
+
+}
+
 .site-navigation a {
    color: #000000;
    line-height: 26px;
@@ -71,7 +85,6 @@ a {
     height: 800px;
     background-image: url("../img/first.jpg");
     background-repeat: no-repeat;
-
 }
 
 .intro-first-baner {
