@@ -18,9 +18,56 @@
             </ul>
          </nav>
          <a class="main-header-logo" href="index.html">
-         <img src="img/logo-sedona.svg" width="100" height="50" alt="Логотип Седона">
+         <img src="img/logo-sedona.svg" alt="Логотип Седона">
          </a>		
       </header>
+      <form class="filters">
+   <div class="filters-options">
+      <b class="filters-options-title">Инфраструктура:</b>
+      <p class="filters-options-item">
+      <input class="filters-options-input" type="checkbox" name="pool" id="pool" checked>
+      <label class="filters-options-label" for="pool">Бассейн</label>
+      </p>
+      <p class="filters-options-item">
+      <input class="filters-options-input" type="checkbox" name="parking" id="parking">
+      <label class="filters-options-label" for="parking">Парковка</label>
+      </p>
+      <p class="filters-options-item">
+      <input class="filters-options-input" type="checkbox" name="wi-fi" id="wi-fi">
+      <label class="filters-options-label" for="wi-fi">WI-FI</label>
+      </p>   
+   </div>
+     <div class="filters-options">
+      <b class="filters-options-title">Тип жилья:</b>
+      <p class="filters-options-item">
+      <input class="filters-options-input" type="checkbox" name="hotel" id="hotel" checked>
+      <label class="filters-options-label" for="hotel">Гостиница</label>
+      </p>
+      <p class="filters-options-item">
+      <input class="filters-options-input" type="checkbox" name="motel" id="pmotel" checked>
+      <label class="filters-options-label" for="motel">Мотель</label>
+      </p>
+      <p class="filters-options-item">
+      <input class="filters-options-input" type="checkbox" name="apartments" id="apartments" checked>
+      <label class="filters-options-label" for="apartments">Апартаменты</label>
+      </p>   
+   </div>
+    <div class="filters-range">
+      <div class="filters-range-title">Стоимость в сутки (р):</div>
+      <div class="price-controls">
+        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+      </div>
+      <div class="range-controls">
+        <div class="scale">
+          <div class="bar"></div>
+        </div>
+        <div class="range-toggle range-toggle-min"></div>
+        <div class="range-toggle range-toggle-max"></div>
+      </div>
+      <button class="btn-transparent" type="submit">Показать</button>
+    </div>  
+</form>
       <section class="catalog">
          <ul class="catalog-list">
             <li class="catalog-item">
