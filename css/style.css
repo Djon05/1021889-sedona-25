@@ -318,28 +318,59 @@ a {
 .main-footer {
    display: flex;
    margin-top: 35px;
-   padding: 35px 0;
-
+   padding: 36px 0;
 
 }
 
 .main-footer-hashtag {
+    padding-top: 11px;
+}
+
+.main-footer-text {
    font-size: 21px;
    line-height: 26px;
    color: #000000;
    font-weight: 700;
    width: 140px;
-   margin: 0px;
    margin-left: 130px;
+   height: ;
+   background-color: 
 }
 
 .footer-social {
    list-style: none;
-   display: flex;
-   text-align: center;
-   background-color: #81b3d2;
    width: 155px;
    margin-left: 255px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   list-style: none;
+}
+
+.social-button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 46px;
+   height: 48px;
+   background-color: #81b3d2;
+}
+
+
+.footer-social a:hover {
+   background-color: #669ec0;
+}
+
+.hotel-form-submit a:active {
+   color: #88b6d1;
+}
+
+.social-button:hover path{
+   color: #ffffff;
+}
+
+.social-button:active path {
+   fill: #5496bd;
 }
 
 .footer-copyright {
@@ -348,13 +379,6 @@ a {
    margin-left: 255px;
 }
 
-.footer-social a:hover {
-   color: #81b3d2;
-}
-
-.footer-social a:active {
-   color: #5496bd;
-}
 
 .social-button {
    color: #ffffff;
