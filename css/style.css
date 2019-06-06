@@ -23,8 +23,6 @@ a {
 }
 
 .main-navigation {
-    color: #000000;
-    align-items: center;
     width: 1060px;
     margin: 0 auto;
 }
@@ -38,9 +36,8 @@ a {
    text-align: center;
 }
 
-.site-navigation li {
+.site-navigation-link {
    width: 243px;
-   margin: 0 auto;
 
 }
 
@@ -53,12 +50,12 @@ a {
    text-align: left;
 }
 
-.site-navigatio-link:nth-child(3) {
+.site-navigation-link:nth-child(3) {
    margin-left: 44px;
    text-align: right;
 }
 
-.site-navigatio-link:nth-child(4){
+.site-navigation-link:nth-child(4){
    text-align: right;
 }
 
@@ -86,7 +83,7 @@ a {
 .main-header-logo {    
    position: absolute;
    top: 0;
-   left: 48%;
+   left: 50%;
    margin-left: -69px;
    width: 142px;
    height: 71px;
@@ -321,6 +318,9 @@ a {
 .main-footer {
    display: flex;
    margin-top: 35px;
+   padding: 35px 0;
+
+
 }
 
 .main-footer-hashtag {
@@ -328,12 +328,24 @@ a {
    line-height: 26px;
    color: #000000;
    font-weight: 700;
+   width: 140px;
+   margin: 0px;
+   margin-left: 130px;
 }
 
 .footer-social {
    list-style: none;
+   display: flex;
    text-align: center;
    background-color: #81b3d2;
+   width: 155px;
+   margin-left: 255px;
+}
+
+.footer-copyright {
+   width: 200px;
+   margin: 0;
+   margin-left: 255px;
 }
 
 .footer-social a:hover {
