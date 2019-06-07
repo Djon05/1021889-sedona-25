@@ -91,15 +91,12 @@ a {
 }
 
 .intro-first-page {
-    width: 1200px; 
-    height: 800px;
-    background-image: url("../img/first.jpg");
-    background-repeat: no-repeat;
-}
-
-.intro-first-baner {
-   padding-top: 75px;
-   padding-left: 370px;
+   min-height: 510px;
+   background:
+    url("../img/polygon.png") 50% 100% no-repeat,
+    url("../img/welcome.png") 50% 50% no-repeat,
+    url("../img/first.jpg") 0 20% no-repeat;
+    margin-bottom: 60px;
 }
 
 .visually-hidden {
@@ -358,6 +355,7 @@ a {
    justify-content: center;
    width: 46px;
    height: 48px;
+   margin-left: 6px;
    background-color: #81b3d2;
 }
 
