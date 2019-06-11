@@ -134,7 +134,7 @@ a {
 }
 
 .feature-city {
-   padding: 53px 54px;
+   padding: 53px 0 54px;
    width: 400px;
    text-align: center;
    background-color: #81b3d2;
@@ -178,6 +178,7 @@ a {
 .feature-item {
    text-align: center;
    padding-top: 60px;
+   position: relative;
 }
 
 .feature-item-house::before {
@@ -185,6 +186,8 @@ a {
    background-image: url(../img/icon-1.svg);
    background-repeat: no-repeat;
    position: absolute;
+   top: -30px;
+   left: 167px;
    width: 75px;
    height: 72px;
 }
@@ -194,8 +197,10 @@ a {
    background-image: url(../img/icon-2.svg);
    position: absolute;
    background-repeat: no-repeat;
+   top: -30px;
+   left: 180px;
    width: 75px;
-   height: 72px;
+   height: 76px;
 }
 
 .feature-item-souvenirs::before {
@@ -203,9 +208,10 @@ a {
    background-image: url(../img/icon-3.svg);
    position: absolute;
    background-repeat: no-repeat;
+   top: -30px;
+   right: 145px;
    width: 75px;
    height: 72px;
-   margin-right: 
 
 }
 
@@ -229,7 +235,7 @@ a {
 
 .feature-second-canyon {
    width: 400px;
-   padding: 53px 54px;
+   padding: 53px 0 54px;
    text-align: center;
    background-color: #81b3d2;
 }
