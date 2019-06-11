@@ -186,7 +186,7 @@ a {
    background-image: url(../img/icon-1.svg);
    background-repeat: no-repeat;
    position: absolute;
-   top: -30px;
+   top: -30px; 
    left: 167px;
    width: 75px;
    height: 72px;
@@ -465,7 +465,7 @@ a {
    display: flex;
    list-style: none;
    padding: 30px 60px;
-  border-bottom: 1px solid #e5e5e5;
+   border-bottom: 1px solid #e5e5e5;
 }
 
 .catalog-item-title-opisaniye {
