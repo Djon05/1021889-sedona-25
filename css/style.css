@@ -340,13 +340,20 @@ a {
 
 .hotel-form {
    width: 450px;
-   padding: 60px 50px;
+   padding: 46px 52px;
 }
 
 .hotel-form-label {
    line-height: 26px;
    font-weight: 700;
    align-items: center;
+   padding-left: 4px;
+}
+
+.hotel-form-label-info {
+   padding-left: 57px;
+    line-height: 26px;
+    font-weight: 700;
 }
 
 .hotel-form-input::input-placeholder {
@@ -355,14 +362,17 @@ a {
 
 .hotel-form-input {
    line-height: 26px;
-   font-weight: 700;
+   font-weight: bold;
    text-transform: uppercase;
    border: none;
+   padding-left: 30px;
+   line-height: 26px;
 }
 
 .hotel-form-item-calendar-btn {
    fill: #cacaca;
    border: none;
+   margin-left: auto;
 }
 
 .hotel-form-item-calendar-btn:hover {
@@ -376,13 +386,58 @@ a {
 .hotel-form-info {
    display: flex;
    align-items: baseline;
+   padding-top: 16px;
+}
+
+.hotel-form-item {
+   display: flex;
+   align-items: center;
+}
+
+.hotel-form-item-info {
+   display: flex;
+   align-items: center;
+   padding-top: 22px;
 }
 
 .hotel-form-button {
    border: none;
    padding: 0;
    margin: 0;
+   width: 38px;
+   height: 40px;
+   color: #a9a9a9;
+   position: relative;
+   font-weight: bold;
 }
+
+.hotel-form-button:hover {
+    color: #000000;
+}
+
+.hotel-form-button:active {
+    color: #81b3d2;
+}
+
+.hotel-form-input-number {
+   width: 12px;
+   border: none;
+   font-weight: bold;
+}
+
+.hotel-form-item-children {
+   width: 180px;
+   display: flex;
+   align-items: center;
+}
+
+.hotel-form-children {
+   width: 114px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 
 .hotel-form-submit {
    font-size: 21px;
@@ -391,7 +446,7 @@ a {
    text-transform: uppercase;
    background-color: #81b3d2;
    font-weight: 700;
-   margin-top: 55px;
+   margin-top: 42px;
    width: 100%;
    padding: 16px 48px;
    width: 450px;
@@ -845,24 +900,41 @@ a {
 }
 
 .catalog-item-rating {
-   margin-left: auto;
+   min-height: 95px;
+   padding-right: 73px;
+   padding-left: 522px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: flex-end;
 }
 
-.catalog-item-rating-text {
-   color: #333333;
-   background-color: #f2f2f2;
-   margin: 0;
-   padding: 5px 15px;
+.catalog-item-rating-star {
+   order: -1;
+   display: flex;
 }
 
-.catalog-item-star {
+.catalog-item-rating-star-img {
    width: 18px;
    height: 17px;
    background-image: url("../img/star.svg");
    background-repeat: no-repeat;
-   display: inline-block;
-   padding-bottom: 38px;
 }
+
+.catalog-item-rating b {
+   width: 110px;
+   height: 27px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 21px;
+   color: #666666;
+   background-color: #f2f2f2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 
 .catalog-item-book:hover {
    background-color: #604e43;
