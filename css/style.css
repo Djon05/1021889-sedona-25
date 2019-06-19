@@ -343,7 +343,14 @@ a {
    padding: 46px 52px;
 }
 
+.hotel-form-item {
+   width: 340px;
+   display: flex;
+   align-items: center;
+}
+
 .hotel-form-label {
+   width: 114px;
    line-height: 26px;
    font-weight: 700;
    align-items: center;
@@ -351,7 +358,7 @@ a {
 }
 
 .hotel-form-label-info {
-   padding-left: 57px;
+    width: 114px;
     line-height: 26px;
     font-weight: 700;
 }
@@ -367,19 +374,48 @@ a {
    border: none;
    padding-left: 30px;
    line-height: 26px;
+   position: relative;
 }
 
-.hotel-form-item-calendar-btn {
-   fill: #cacaca;
-   border: none;
-   margin-left: auto;
+.hotel-form-input:hover {
+   background-color: #ebebeb;
 }
 
-.hotel-form-item-calendar-btn:hover {
-   fill: #000000;
+.hotel-form-input:focus {
+   color: #e5e5e5;
+} 
+
+.hotel-form-item-calendar-arrival {
+   position: absolute;
+   width: 21;
+   height: 22;
+   left: 480px;
+   top: 150px;
+   opacity: 0.3;
 }
 
-.hotel-form-item-calendar-btn:active {
+.hotel-form-item-calendar-arrival:hover {
+   opacity: 1;
+}
+
+.hotel-form-item-calendar-arrival:active {
+   fill: #81b3d2;
+}
+
+.hotel-form-item-calendar-departure {
+   position: absolute;
+   width: 21;
+   height: 22;
+   left: 480px;
+   top: 218px;
+   opacity: 0.3;
+}
+
+.hotel-form-item-calendar-departure:hover {
+   opacity: 1;
+}
+
+.hotel-form-item-calendar-departure:active {
    fill: #81b3d2;
 }
 
@@ -389,53 +425,86 @@ a {
    padding-top: 16px;
 }
 
-.hotel-form-item {
-   display: flex;
-   align-items: center;
-}
-
 .hotel-form-item-info {
    display: flex;
    align-items: center;
    padding-top: 22px;
 }
 
-.hotel-form-button {
-   border: none;
-   padding: 0;
-   margin: 0;
+.hotel-form-button-minus {
    width: 38px;
    height: 40px;
-   color: #a9a9a9;
+   border: none;
+   background-color: #f2f2f2;
    position: relative;
-   font-weight: bold;
 }
 
-.hotel-form-button:hover {
-    color: #000000;
+.hotel-form-button-minus::before {
+   content: "";
+   position: absolute;
+   width: 12px;
+   height: 3px;
+   background-color: #a9a9a9;
+   left: 14px;
+   top: 13px;
 }
 
-.hotel-form-button:active {
-    color: #81b3d2;
+
+.hotel-form-button-plus {
+   width: 38px;
+   height: 40px;
+   border: none;
+   background-color: #f2f2f2;
+   position: relative;
+}
+
+.hotel-form-button-plus::before {
+   content: "";
+   position: absolute;
+   width: 12px;
+   height: 3px;
+   background-color: #a9a9a9;
+   left: 13px;
+   top: 13px;
+}
+
+.hotel-form-button-plus::after {
+    content: "";
+   position: absolute;
+   width: 12px;
+   height: 3px;
+   background-color: #a9a9a9;
+   left: 13px;
+   top: 13px;
+   transform: rotate(90deg);
+}
+
+.hotel-form-item-adults {
+   width: 227px;
+   display: flex;
+}
+
+.hotel-form-adults {
+   width: 114px;
+   display: flex;
+   margin-left: 46px;
 }
 
 .hotel-form-input-number {
    width: 12px;
    border: none;
    font-weight: bold;
+   padding-bottom: 13px;
 }
 
 .hotel-form-item-children {
    width: 180px;
-   display: flex;
-   align-items: center;
+   display: flex;   
 }
 
 .hotel-form-children {
    width: 114px;
    display: flex;
-   align-items: center;
-   justify-content: center;
 }
 
 
@@ -813,9 +882,9 @@ a {
 .catalog-item {
    display: flex;
    list-style: none;
-   padding: 30px 70px;
+   padding: 30px 74px;
    padding-top: 34px;
-   padding-bottom: 26px;
+   padding-bottom: 22px;
    border-top: 1px solid #e5e5e5;
 }
 
@@ -912,6 +981,7 @@ a {
 .catalog-item-rating-star {
    order: -1;
    display: flex;
+
 }
 
 .catalog-item-rating-star-img {
@@ -919,6 +989,7 @@ a {
    height: 17px;
    background-image: url("../img/star.svg");
    background-repeat: no-repeat;
+   padding-left: 5px;
 }
 
 .catalog-item-rating b {
@@ -933,6 +1004,7 @@ a {
    display: flex;
    align-items: center;
    justify-content: center;
+   padding-top: 20px;
 }
 
 
