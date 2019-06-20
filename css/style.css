@@ -350,7 +350,6 @@ a {
 }
 
 .hotel-form-label {
-   width: 114px;
    line-height: 26px;
    font-weight: 700;
    align-items: center;
@@ -373,8 +372,8 @@ a {
    text-transform: uppercase;
    border: none;
    padding-left: 30px;
-   line-height: 26px;
    position: relative;
+   background-color: #f2f2f2;
 }
 
 .hotel-form-input:hover {
@@ -383,46 +382,29 @@ a {
 
 .hotel-form-input:focus {
    color: #e5e5e5;
-} 
+}
 
-.hotel-form-item-calendar-arrival {
+.hotel-form-item-calendar-btn {
    position: absolute;
-   width: 21;
+   border: none;
+    width: 21;
    height: 22;
-   left: 480px;
-   top: 150px;
+   left: 470px;
    opacity: 0.3;
 }
 
-.hotel-form-item-calendar-arrival:hover {
+.hotel-form-item-calendar-btn:hover {
    opacity: 1;
 }
 
-.hotel-form-item-calendar-arrival:active {
-   fill: #81b3d2;
-}
-
-.hotel-form-item-calendar-departure {
-   position: absolute;
-   width: 21;
-   height: 22;
-   left: 480px;
-   top: 218px;
-   opacity: 0.3;
-}
-
-.hotel-form-item-calendar-departure:hover {
-   opacity: 1;
-}
-
-.hotel-form-item-calendar-departure:active {
+.hotel-form-item-calendar-btn:active {
    fill: #81b3d2;
 }
 
 .hotel-form-info {
    display: flex;
    align-items: baseline;
-   padding-top: 16px;
+   padding-top: 10px;
 }
 
 .hotel-form-item-info {
@@ -433,13 +415,14 @@ a {
 
 .hotel-form-button-minus {
    width: 38px;
-   height: 40px;
+   height: 38px;
    border: none;
    background-color: #f2f2f2;
    position: relative;
+   background-color: #f2f2f2;
 }
 
-.hotel-form-button-minus::before {
+.hotel-form-button-minus:before {
    content: "";
    position: absolute;
    width: 12px;
@@ -449,10 +432,18 @@ a {
    top: 13px;
 }
 
+.hotel-form-button-minus:hover:before {
+   color: 000000;
+}
+
+.hotel-form-button-minus:focus:before {
+  color:  #81b3d2;
+}
+
 
 .hotel-form-button-plus {
    width: 38px;
-   height: 40px;
+   height: 38px;
    border: none;
    background-color: #f2f2f2;
    position: relative;
@@ -479,6 +470,15 @@ a {
    transform: rotate(90deg);
 }
 
+.hotel-form-button-plus:hover:before {
+   color: 000000;
+}
+
+.hotel-form-button-plus:focus:before {
+  color:  #81b3d2;
+}
+
+
 .hotel-form-item-adults {
    width: 227px;
    display: flex;
@@ -487,14 +487,15 @@ a {
 .hotel-form-adults {
    width: 114px;
    display: flex;
-   margin-left: 46px;
+   margin-left: 39px;
 }
 
 .hotel-form-input-number {
-   width: 12px;
+   width: 38px;
    border: none;
    font-weight: bold;
    padding-bottom: 13px;
+   text-align: center;
 }
 
 .hotel-form-item-children {
