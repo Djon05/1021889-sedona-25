@@ -344,9 +344,9 @@ a {
 }
 
 .hotel-form-item {
-   width: 340px;
    display: flex;
    align-items: center;
+   background-color: #f2f2f2;
 }
 
 .hotel-form-label {
@@ -404,13 +404,14 @@ a {
 .hotel-form-info {
    display: flex;
    align-items: baseline;
-   padding-top: 10px;
+   padding-top: 4px;
 }
 
 .hotel-form-item-info {
    display: flex;
    align-items: center;
-   padding-top: 22px;
+   margin-top: 27px;
+   background-color: #f2f2f2;
 }
 
 .hotel-form-button-minus {
@@ -508,6 +509,7 @@ a {
    width: 38px;
    border: none;
    font-weight: bold;
+   background-color: #f2f2f2;
    padding-bottom: 13px;
    text-align: center;
 }
@@ -565,7 +567,6 @@ a {
 .map-img {
   position: absolute;
   top: 0;
-  left: 50%;
   display: block;
   width: 1200px;
   max-width: inherit;
