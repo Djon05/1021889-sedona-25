@@ -316,9 +316,7 @@ a {
    width: 568px;
    margin-left: auto;
    margin-right: auto;
-   background: #ffffff;
-   top: 382px;
-   z-index: 1;
+   
 }
 
 .find-hotel-button {
@@ -342,20 +340,26 @@ a {
 }
 
 .hotel-form {
+   position: absolute;
    width: 568px;
-   padding: 46px 41px;
    margin: 0;
+   top: 86px;
+   background: #ffffff;
+   z-index: 1;
+   height: 400px;
 }
 
 .hotel-form-item {
    display: flex;
    align-items: center;
+   padding-top: 55px;
 }
 
 .hotel-form-label {
    line-height: 26px;
    font-weight: 700;
    align-items: center;
+   padding-left: 42px;
 }
 
 .hotel-form-label-info {
@@ -551,8 +555,9 @@ a {
    font-weight: 700;
    margin-top: 42px;
    padding: 16px 48px;
-   width: 460px;
-   margin-right: 122px;
+   width: 470px;
+   margin-right: 13px;
+
 }
 
 .hotel-form-submit:hover {
