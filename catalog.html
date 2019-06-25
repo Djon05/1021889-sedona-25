@@ -29,11 +29,11 @@
                <label class="filters-options-label" for="pool">Бассейн</label>
             </p>
             <p class="filters-options-item ">
-               <input class="filters-options-input" type="checkbox" name="parking" id="parking">
-               <label class="filters-options-label" for="parking">Парковка</label>
+               <input class="filters-options-input filter-input-checkbox" type="checkbox" name="parking" id="parking" >
+               <label class="filters-options-label"  for="parking">Парковка </label>
             </p>
             <p class="filters-options-item">
-               <input class="filters-options-input" type="checkbox" name="wi-fi" id="wi-fi">
+               <input class="filters-options-input filter-input-checkbox" type="checkbox" name="wi-fi" id="wi-fi">
                <label class="filters-options-label" for="wi-fi">WI-FI</label>
             </p>
          </div>
@@ -44,7 +44,7 @@
                <label class="filters-options-label" for="hotel">Гостиница</label>
             </p>
             <p class="filters-options-item">
-               <input class="filters-options-input filter-input-checkbox" type="checkbox" name="motel" id="pmotel" checked>
+               <input class="filters-options-input filter-input-checkbox" type="checkbox" name="motel" id="motel" checked>
                <label class="filters-options-label" for="motel">Мотель</label>
             </p>
             <p class="filters-options-item">
@@ -73,9 +73,9 @@
             <p class="hotels-sort-title">Найдено:</p>
             <span class="hotels-sort-count">3</span>
          </div>
-         <ul class="hotels-sort-list">
-            <h3 class="hotels-sort-list-title">
+         <h2 class="hotels-sort-list-title">
             Сортировка: </h2>
+         <ul class="hotels-sort-list">
             <li class="hotels-sort-item">
                <a class="hotels-sort-link active" href="#">По цене</a>
             </li>
@@ -87,15 +87,16 @@
             </li>
          </ul>
          <div class="hotels-sort-updown">
-            <a class="hotels-sort-updown-link" href="#">
+            <a class="hotels-sort-updown-up" href="#" aria-label="вверх" >
                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                   <path fill="#231F20" d="M5.5 0L0 10h11z"/>
                </svg>
             </a>
-            <a class="hotels-sort-updown-link-active" href="#">
+            <a class="hotels-sort-updown-down active" href="#" aria-label="вверх">
                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                   <path fill="#231F20" d="M5.5 10L0 0h11"/>
                </svg>
+               </a>
          </div>
       </section>
       <section class="catalog">
@@ -119,9 +120,8 @@
         <span class="catalog-item-rating-star-img"></span>
         <span class="catalog-item-rating-star-img"></span>
    </div>
-
    </div>
-      </li>
+   </li>
           <li class="catalog-item">
           <img class="catalog-item-photo" src="img/hotels2.jpg" alt="Гостиница">
    <div class="catalog-item-title-opisaniye">
@@ -139,6 +139,7 @@
           <span class="catalog-item-rating-star-img"></span>
           <span class="catalog-item-rating-star-img"></span>
           <span class="catalog-item-rating-star-img"></span>
+   </div>
    </div>
       </li>
    <li class="catalog-item"> 
@@ -158,10 +159,11 @@
       <span class="catalog-item-rating-star-img"></span>
       <span class="catalog-item-rating-star-img"></span>
    </div>
+   </div>
       </li>
       </ul>
       </section>
-      <footer class="main-footer">
+      <footer class="main-footer-catalog">
          <div class="main-footer-hashtag">
             <a class="main-footer-text" href="#">#visitsedona</a>
          </div>
