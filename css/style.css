@@ -841,8 +841,8 @@ a {
 .price-controls .min-price,
 .price-controls .max-price {
    width: 85px;
-   padding-left: 71px;
-   margin: -4px;
+   padding-left: 68px;
+   margin: -3px;
 }
 
 .price-controls input {
@@ -856,7 +856,7 @@ a {
 
 .range-controls {
    position: relative;
-   margin-bottom: 30px;
+   margin-bottom: 32px;
 }
 
 .range-controls .scale {
@@ -891,7 +891,7 @@ a {
 }
 
 .range-toggle-max {
-   left: 78%;
+   left: 77%;
 }
 
 .btn-transparent {
