@@ -790,7 +790,7 @@ a {
    text-transform: uppercase;
    margin-left: auto;
    padding-top: 28px;
-   padding-right: 60px;
+   padding-right: 58px;
 }
 
 .filter-range-title {
@@ -811,9 +811,10 @@ a {
 
 .price-controls {
    position: relative;
-   height: 36px;
-   margin-bottom: 18px;
+   height: 33px;
+   margin-bottom: 20px;
    font-size: 0;
+   width: 316px;
    border: 2px solid #ffffff;
    border-radius: 2px;
 }
@@ -822,7 +823,7 @@ a {
    content: "";
    position: absolute;
    top: 50%;
-   left: 50%;
+   left: 51%;
    width: 2px;
    height: 22px;
    background: #ffffff;
@@ -840,7 +841,8 @@ a {
 .price-controls .min-price,
 .price-controls .max-price {
    width: 85px;
-   padding-left: 65px;
+   padding-left: 71px;
+   margin: -4px;
 }
 
 .price-controls input {
@@ -894,7 +896,7 @@ a {
 
 .btn-transparent {
    display: block;
-   margin-left: 89px;
+   margin-left: 87px;
    padding: 6px 30px;
    font-size: 14px;
    line-height: 20px;
