@@ -414,14 +414,15 @@ a {
 .hotel-form-input {
    line-height: 26px;
    font-weight: bold;
-   width: 303px;
+   width: 325px;
    height: 38px;
    font-size: 14px;
    padding: 0 11px;
+   margin-left: 13px;
    text-transform: uppercase;
-   margin-left: 33px;
    border: none;
    padding: 0;
+   padding-left: 20px;
    position: relative;
    background-color: #f2f2f2;
 }
@@ -441,7 +442,7 @@ a {
    border: none;
    width: 21;
    height: 22;
-   right: 60px;
+   right: 58px;
    background-color: transparent;
 }
 
@@ -921,7 +922,7 @@ a {
    display: flex;
    padding-left: 73px;
    padding-top: 12px;
-   padding-bottom: 18px;
+   padding-bottom: 16px;
    align-items: baseline;
 }
 
@@ -1036,7 +1037,7 @@ a {
    display: flex;
    list-style: none;
    padding: 30px 74px;
-   padding-top: 20px;
+   padding-top: 22px;
    padding-bottom: 33px;
    border-top: 1px solid #e5e5e5;
    border-bottom: 1px solid #e5e5e5;
