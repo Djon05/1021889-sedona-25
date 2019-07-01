@@ -414,15 +414,14 @@ a {
 .hotel-form-input {
    line-height: 26px;
    font-weight: bold;
-   width: 325px;
+   width: 336px;
    height: 38px;
    font-size: 14px;
-   padding: 0 11px;
-   margin-left: 13px;
+   margin-left: 23px;
    text-transform: uppercase;
    border: none;
    padding: 0;
-   padding-left: 20px;
+   padding-left: 10px;
    position: relative;
    background-color: #f2f2f2;
 }
@@ -432,10 +431,13 @@ a {
 }
 
 .hotel-form-input:focus {
+   height: 34px;
+   padding: 0 8px;
    background-color: transparent;
    outline: none;
    border: 2px solid #e5e5e5;
 }
+
 
 .hotel-form-item-calendar-btn {
    position: absolute;
@@ -637,9 +639,8 @@ a {
    align-items: center;
    z-index: 1;
    height: 87px;
-   margin: -127px;
-   padding-left: 128px;
-   background-color: #ffffff;
+   margin-top: -133px;
+   background-color: rgba(255,255,255, .8);
 }
 
 .main-footer-catalog {
@@ -691,9 +692,10 @@ a {
    background-color: #669ec0;
 }
 
-.hotel-form-submit a:active {
+.footer-social a:active {
    background-color: #5496bd;
 }
+
 
 .footer-copyright {
    width: 300px;
@@ -701,7 +703,6 @@ a {
    display: flex;
    margin-left: 104px;
    text-align: center;
-   background-color: rgba(255,255,255, .8);
    line-height: 26px;
 }
 
@@ -803,11 +804,6 @@ a {
 
 .filters-options-input {
    display: none;
-}
-
-.hotel-form-input:focus {
-   height: 34px;
-   padding: 0 9px;
 }
 
 .price-controls {
@@ -922,7 +918,7 @@ a {
    display: flex;
    padding-left: 73px;
    padding-top: 12px;
-   padding-bottom: 16px;
+   padding-bottom: 7px;
    align-items: baseline;
 }
 
@@ -1037,8 +1033,8 @@ a {
    display: flex;
    list-style: none;
    padding: 30px 74px;
-   padding-top: 22px;
-   padding-bottom: 33px;
+   padding-top: 30px;
+   padding-bottom: 25px;
    border-top: 1px solid #e5e5e5;
    border-bottom: 1px solid #e5e5e5;
 }
