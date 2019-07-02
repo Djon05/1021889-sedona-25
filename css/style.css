@@ -851,16 +851,18 @@ a {
            user-select: none;
 }
 
-
-.filter-input-checkbox:disabled {
+.filters-options-input:checked:disabled ~ .filters-options-label::after {
    color: #6a6a6a;
    cursor: inherit;
+   background-image: url("../img/checkbox-2.svg");
 }
 
-.filters-options-label::after {
+.filters-options-input:disabled ~ .filters-options-label::after {
    color: #6a6a6a;
    cursor: inherit;
+   background-image: url("../img/checkbox-3.svg");
 }
+
 
 .filter-input-checkbox:checked+label::after {
    content: "";
@@ -954,6 +956,7 @@ a {
 
 .price-controls input {
    width: 50px;
+   height: 40px;
    margin: 0;
    color: inherit;
    font: inherit;
