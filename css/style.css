@@ -172,7 +172,7 @@ a {
 
 .feature-city-picture {
    width: 800px;
-   background: url("../img/hotel.jpg") 50% 51%;
+   background: #517ca4 url("../img/hotel.jpg") 50% 51%;
 }
 
 .feature-item-info {
@@ -281,7 +281,7 @@ a {
 
 .feature-second-canyon-picture {
    width: 800px;
-   background-image: url("../img/canyon.jpg");
+   background: #517ca4 url("../img/canyon.jpg");
 }
 
 .feature-second-item-info {
@@ -486,7 +486,6 @@ a {
    height: 22;
    right: 9px;
    top: 6px;
-   line-height: 38px;
    background-color: transparent;
 }
 
@@ -827,7 +826,7 @@ a {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
-   background-image: url("../img/filter.jpg");
+   background:#517ca4 url("../img/filter.jpg");
    height: 215px;
    color: #ffffff;
 }
@@ -852,13 +851,15 @@ a {
            user-select: none;
 }
 
-.filter-input-checkbox:disabled {
 
+.filter-input-checkbox:disabled {
+   color: #6a6a6a;
+   cursor: inherit;
 }
 
-.filters-options-item input:disabled + label {
-    color: #6a6a6a;
-    cursor: inherit;
+.filters-options-label::after {
+   color: #6a6a6a;
+   cursor: inherit;
 }
 
 .filter-input-checkbox:checked+label::after {
@@ -1200,6 +1201,7 @@ a {
    color: #333333;
    width: 142px;
    display: inline-block;
+   vertical-align: top;
 }
 
 .catalog-item-price {
