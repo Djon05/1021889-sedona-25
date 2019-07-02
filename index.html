@@ -5,7 +5,7 @@
       <title>sedona</title>
       <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
       <link  href="css/normalize.css" rel="stylesheet">
-      <link  href="css/style.min.css" rel="stylesheet">
+      <link  href="css/style.css" rel="stylesheet">
    </head>
    <body>
       <header class="main-header">
@@ -19,7 +19,7 @@
                </ul>
             </nav>
             <a class="main-header-logo">
-            <img src="img/logo-sedona.svg" alt="Логотип Седона">
+            <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седона">
             </a>
          </div>
       </header>
@@ -37,7 +37,7 @@
                <span class="feature-city-number">— №1 —</span>
                <p class="feature-city-text">седона - не аттракцион для туристов, там течет своя жизнь</p>
             </div>
-            <div class="feature-city-picture" aria-label="Местная жизнь"></div>
+            <div class="feature-city-picture" width="800" height="256" aria-label="Местная жизнь"></div>
          </div>
          <div class="feature-item-info">
             <div class="feature-item feature-item-house" >
@@ -53,8 +53,8 @@
                <p class="feature-text">Не только китайского, но и местного производства </p>
             </div>
          </div>
-         <div class="feature-second-info">
-            <div class="feature-second-canyon-picture" aria-label="Мост дьявола"></div>
+         <div class="feature-second-info" >
+            <div class="feature-second-canyon-picture" width="800" height="256" aria-label="Мост дьявола"></div>
             <div class="feature-second-canyon">
                <h3 class="feature-second-canyon-title">там есть мост дьявола</h3>
                <span class="feature-second-canyon-number">— №2 —</span>
@@ -87,8 +87,9 @@
                <section class="modal">
                   <h2 class="visually-hidden">Форма поиска гостиницы в Седоне</h2>
                   <form class="hotel-form" action="https://echo.htmlacademy.ru" method="post">
-                     <p class="hotel-form-item">
+                     <div class="hotel-form-item">
                         <label class="hotel-form-label" for="date-arrival">дата заезда:</label>
+                        <div class="hotel-form-wrapper">
                         <input class="hotel-form-input input1" type="text" name="date-arrival" id="date-arrival" placeholder="24 апреля 2017" aria-label="Календарь">
                         <button class="hotel-form-item-calendar-btn" type="button" name="calendar">
                            <svg class="hotel-form-item-calendar-arrival" xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22">
@@ -96,9 +97,11 @@
                               <path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/>
                            </svg>
                         </button>
-                     </p>
-                     <p class="hotel-form-item-info">
+                        </div>
+                     </div>
+                     <div class="hotel-form-item-info">
                         <label class="hotel-form-label " for="date-departure">Дата выезда:</label>
+                        <div class="hotel-form-wrapper">
                         <input class="hotel-form-input input2" type="text" name="date-departure"  id="date-departure" placeholder="4 июля 2017" aria-label="Календарь">
                         <button class="hotel-form-item-calendar-btn" type="button" name="calendar">
                            <svg class="hotel-form-item-calendar-departure" xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 21 22">
@@ -106,7 +109,8 @@
                               <path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/>
                            </svg>
                         </button>
-                     </p>
+                        </div>
+                     </div>
                      <div class="hotel-form-info">
                         <p class="hotel-form-item-adults">
                            <label class="hotel-form-label" for="adults">взрослые:</label>
@@ -130,7 +134,7 @@
             <section class="map">
                <h2 class="visually-hidden">Расположение Седоны на карте</h2>
                <div class="map-content" id="map"><span class="visually-hidden">Седона на интерактивной карте</span></div>
-               <img class="map-img" src="img/map.jpg" alt="Седона на карте">
+               <img class="map-img" src="img/map.jpg" width="1200" height="593" alt="Седона на карте">
             </section>
          </section>
       </main>
@@ -174,6 +178,6 @@
             </a>
          </div>
       </footer>
-      <script src="js/script.js"></script>
+      <script src="js/script-min.js"></script>
    </body>
 </html>
