@@ -879,13 +879,13 @@ a {
 .filters-options-input:checked:disabled ~ .filters-options-label::after {
    color: #6a6a6a;
    cursor: inherit;
-   background-image: url("../img/checkbox-off-disabled.svg");
+   background-image: url("../img/checkbox-on-disabled.svg");
 }
 
 .filters-options-input:disabled ~ .filters-options-label::after {
    color: #6a6a6a;
    cursor: inherit;
-   background-image: url("../img/checkbox-on-disabled.svg");
+   background-image: url("../img/checkbox-off-disabled.svg");
 }
 
 
